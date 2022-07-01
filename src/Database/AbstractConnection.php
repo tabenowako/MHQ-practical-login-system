@@ -11,7 +11,7 @@
         $this->credentials = $credentials;
 
         if(!$this->matchConfigKeyToCredentialKeys($this->credentials)){
-            //throw exception for testing db connection
+            //throw exception for non matching config keys
         }
     }
 

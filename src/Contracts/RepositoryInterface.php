@@ -12,7 +12,7 @@ interface RepositoryInterface{
 
     public function findBy(array $criteria);
 
-    public function findAll(): array;
+    public function findAll();
 
     public function create(Entity $entity): ?object;
 

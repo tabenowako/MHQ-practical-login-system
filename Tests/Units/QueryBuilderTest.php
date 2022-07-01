@@ -10,7 +10,6 @@ class QueryBuilderTest extends TestCase{
 
     public function setUp():void{
          $this->queryBuilder = QueryBuilderFactory::make("database", "pdo");
-         $this->queryBuilder->beginTransaction();
          parent::setUp();
     }
 
